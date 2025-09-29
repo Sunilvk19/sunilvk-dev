@@ -1,0 +1,186 @@
+/* Base styles */
+.about {
+  padding: 4rem 1rem;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.about-description {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #34495e;
+  padding: 0 1rem;
+}
+
+.about-cta {
+  margin-top: 2rem;
+}
+
+.about-cta .cta {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: #2980b9;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.about-cta .cta:hover {
+  background-color: #1f6391;
+}
+
+/* Section Blocks */
+.education,
+.technical-skills,
+.soft-skills {
+  margin-top: 2.5rem;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.education h3,
+.technical-skills h3,
+.soft-skills h3 {
+  font-size: 1.5rem;
+  color: #00b8d9;
+  margin-bottom: 0.75rem;
+}
+
+.education ul,
+.technical-skills ul,
+.soft-skills ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.education ul li,
+.technical-skills ul li,
+.soft-skills ul li{
+  margin-bottom: 0.5rem;
+}
+/* Responsive Design */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .about-description {
+    font-size: 1.05rem;
+  }
+
+  .education h3,
+  .technical-skills h3,
+  .soft-skills h3 {
+    font-size: 1.3rem;
+  }
+
+  .education ul,
+  .technical-skills ul,
+  .soft-skills ul {
+    font-size: 0.98rem;
+  }
+
+  .about-cta .cta {
+    font-size: 0.95rem;
+    padding: 0.65rem 1.5rem;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+  .about {
+    padding: 3rem 1rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-description {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .education,
+  .technical-skills,
+  .soft-skills {
+    padding: 0;
+  }
+
+  .education h3,
+  .technical-skills h3,
+  .soft-skills h3 {
+    font-size: 1.2rem;
+  }
+
+  .education ul,
+  .technical-skills ul,
+  .soft-skills ul {
+    font-size: 0.95rem;
+  }
+
+  .about-cta .cta {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .about-description {
+    font-size: 0.95rem;
+  }
+
+  .about-cta .cta {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .education h3,
+  .technical-skills h3,
+  .soft-skills h3 {
+    font-size: 1rem;
+  }
+
+  .education ul,
+  .technical-skills ul,
+  .soft-skills ul {
+    font-size: 0.9rem;
+  }
+}

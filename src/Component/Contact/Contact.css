@@ -1,0 +1,61 @@
+.contact {
+  padding: 40px;
+  background: #f4f4f4;
+  height: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-details li {
+  display: flex;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+
+.contact-details i {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #0077b5;
+}
+
+.social-links a {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #0077b5;
+}
+.social-links .fa-github {
+  color: #181717; 
+}
+
+.social-links .fa-linkedin {
+  color: #0077b5; 
+}
+
+.social-links .fa-twitter {
+  color: #1DA1F2; 
+}
+
+.social-links .fa-instagram {
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
