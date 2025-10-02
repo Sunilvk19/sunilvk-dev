@@ -9,6 +9,7 @@
 }
 
 .about-content {
+  border: 2px solid black;
   max-width: 900px;
   width: 100%;
   margin-bottom: 2rem;
@@ -65,7 +66,6 @@
   align-items: center;
   flex-wrap: nowrap;
 }
-
 .education h3,
 .technical-skills h3,
 .soft-skills h3 {
