@@ -1,6 +1,7 @@
 .contact {
   padding: 40px;
-  background: #f4f4f4;
+  background: #2a9b48;
+  background: linear-gradient(90deg, rgba(42, 155, 72, 1) 0%, rgba(87, 199, 199, 1) 50%, rgba(175, 237, 83, 1) 100%);
   height: auto;
 }
 
