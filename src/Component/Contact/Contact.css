@@ -57,5 +57,42 @@
 .social-links .fa-instagram {
   background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media  (max-width: 991px) and (min-width: 480px) {
+  .contact{
+    padding: 20px;
+    height: auto;
+    color: #181717;
+  }
+  .section-title{
+    font-size: 1.9rem;
+    color: #181717;
+  }
+  .contact-details li{
+    font-size: 0.9rem;
+    color: #181717;
+  }
+  .contact-details i{
+    font-size: 1.2rem;
+  }
+  .social-links a{
+    font-size: 1.2rem;
+  }
+  .social-links .fa-github {
+    color: #181717; 
+  }
+  .social-links .fa-linkedin{
+    color: #0077b5;
+  }
+  .social-links .fa-twitter{
+    color: #1DA1F2;
+  }
+  .social-links .fa-instagram{
+    background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
