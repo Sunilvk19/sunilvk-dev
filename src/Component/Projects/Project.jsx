@@ -4,7 +4,6 @@ import Blood from './images/Blood.jpg';
 import Bird from './images/Bird.jpg';
 import sms from './images/sms.jpg';
 import stm from './images/stm.jpg';
-import bot from './images/chatbot.webp';
 
 function Projects() {
   const projectData = [
@@ -37,13 +36,6 @@ function Projects() {
         to automate attendance tracking and reporting for educational institutions and using basic HTML, CSS, and JavaScript for the frontend.`,
         link: 'https://github.com/Sunilvk19/Attendance-Tracker'
     },
-    {
-      img: bot,
-      title: 'ChatBot',
-      description: `Developed a chatbot for a portfolio website using frontend techologies like React.js, and backend technologies like Java Spring Boot,
-      The chatbot provides instant responses to user queries, enhancing user engagement and support.`,
-      link:'https://github.com/Sunilvk19/chat-bot'
-    }
   ];
 
   return (
