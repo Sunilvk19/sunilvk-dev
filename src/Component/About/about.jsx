@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "./sunil.pdf";
+import resume from "./sunil-R-FullStack.pdf";
 
 export default function About() {
   return (

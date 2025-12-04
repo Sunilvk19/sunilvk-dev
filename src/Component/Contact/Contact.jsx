@@ -38,7 +38,7 @@ export default function Contact() {
               <i className="fas fa-envelope text-3xl text-cyan-300"></i>
               <div>
                 <h4 className="text-lg font-semibold">Email</h4>
-                <p className="text-gray-300 text-sm">sunil.2701k@gmail.com</p>
+                <p className="text-gray-300 text-sm">sunil27vk@gmail.com</p>
               </div>
             </div>
           </div>
