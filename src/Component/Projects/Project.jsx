@@ -43,7 +43,6 @@ export default function Projects() {
         <h2 className="text-4xl font-extrabold text-center mb-12">
           <span className="text-cyan-300">Projects</span>
         </h2>
-
         {/* Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {projectData.map((project, index) => (

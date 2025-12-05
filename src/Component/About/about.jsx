@@ -3,7 +3,7 @@ import resume from "./sunil-R-FullStack.pdf";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-[#0b1120] text-white">
+    <section id="about" className="py-24 bg-[#0b1120] text-white cursor-pointer">
       <div className="max-w-7xl mx-auto px-6">
         {/* Title */}
         <h2 className="text-4xl font-extrabold text-center mb-12">

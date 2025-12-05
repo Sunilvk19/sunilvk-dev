@@ -22,7 +22,7 @@ export default function Skills() {
         </h2>
 
         {/* Skills Grid */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 cursor-pointer">
           {skills.map((skill, index) => (
             <div
               key={index}
@@ -36,7 +36,7 @@ export default function Skills() {
               <h3 className="text-lg font-semibold">{skill.name}</h3>
 
               {/* Glow Effect */}
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-br from-cyan-400/20 to-transparent rounded-xl pointer-events-none transition"></div>
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-br from-cyan-400/20 to-transparent rounded-xl pointer-events-none transition cursor-pointer"></div>
             </div>
           ))}
         </div>
